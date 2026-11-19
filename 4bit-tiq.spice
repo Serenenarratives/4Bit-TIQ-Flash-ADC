@@ -1,0 +1,194 @@
+** sch_path: /home/vboxuser/designs/sky130_work/4bit-tiq.sch
+**.subckt 4bit-tiq
+XM44 net1 net2 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM45 net1 net2 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+V1 Vdd gnd 1.8
+V2 Vin gnd pwl(0 0 100n 1.8)
+XM46 net3 net4 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM47 net3 net4 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0
++ sd=0 mult=1
+XM48 net5 net6 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM49 net5 net6 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM50 net7 net8 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM51 net7 net8 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=5 nf=1 ad=1.45 as=1.45 pd=10.58 ps=10.58 nrd=0.058 nrs=0.058 sa=0 sb=0
++ sd=0 mult=1
+XM52 net9 net10 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM53 net9 net10 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=7 nf=1 ad=2.03 as=2.03 pd=14.58 ps=14.58 nrd=0.0414285714285714
++ nrs=0.0414285714285714 sa=0 sb=0 sd=0 mult=1
+XM54 net11 net12 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM55 net11 net12 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=7 nf=1 ad=2.03 as=2.03 pd=14.58 ps=14.58 nrd=0.0414285714285714
++ nrs=0.0414285714285714 sa=0 sb=0 sd=0 mult=1
+XM56 net13 net14 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM57 net13 net14 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=11 nf=1 ad=3.19 as=3.19 pd=22.58 ps=22.58 nrd=0.0263636363636364
++ nrs=0.0263636363636364 sa=0 sb=0 sd=0 mult=1
+XM58 net15 net16 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM59 net15 net16 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=13 nf=1 ad=3.77 as=3.77 pd=26.58 ps=26.58 nrd=0.0223076923076923
++ nrs=0.0223076923076923 sa=0 sb=0 sd=0 mult=1
+XM60 net17 net18 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM61 net17 net18 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=15 nf=1 ad=4.35 as=4.35 pd=30.58 ps=30.58 nrd=0.0193333333333333
++ nrs=0.0193333333333333 sa=0 sb=0 sd=0 mult=1
+XM62 net19 net20 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM63 net19 net20 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=18 nf=1 ad=5.22 as=5.22 pd=36.58 ps=36.58 nrd=0.0161111111111111
++ nrs=0.0161111111111111 sa=0 sb=0 sd=0 mult=1
+XM64 net21 net22 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM65 net21 net22 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=20 nf=1 ad=5.8 as=5.8 pd=40.58 ps=40.58 nrd=0.0145 nrs=0.0145 sa=0
++ sb=0 sd=0 mult=1
+XM66 net23 net24 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM67 net23 net24 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=22 nf=1 ad=6.38 as=6.38 pd=44.58 ps=44.58 nrd=0.0131818181818182
++ nrs=0.0131818181818182 sa=0 sb=0 sd=0 mult=1
+XM68 net25 net26 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM69 net25 net26 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=24 nf=1 ad=6.96 as=6.96 pd=48.58 ps=48.58 nrd=0.0120833333333333
++ nrs=0.0120833333333333 sa=0 sb=0 sd=0 mult=1
+XM70 net27 net28 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM71 net27 net28 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=26 nf=1 ad=7.54 as=7.54 pd=52.58 ps=52.58 nrd=0.0111538461538462
++ nrs=0.0111538461538462 sa=0 sb=0 sd=0 mult=1
+XM72 net29 net30 gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM73 net29 net30 Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=29 nf=1 ad=8.41 as=8.41 pd=58.58 ps=58.58 nrd=0.01 nrs=0.01 sa=0
++ sb=0 sd=0 mult=1
+XM1 net2 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM2 net2 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM3 net4 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM4 net4 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0
++ sd=0 mult=1
+XM5 net6 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM6 net6 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=3 nf=1 ad=0.87 as=0.87 pd=6.58 ps=6.58 nrd=0.0966666666666667
++ nrs=0.0966666666666667 sa=0 sb=0 sd=0 mult=1
+XM7 net8 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM8 net8 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=5 nf=1 ad=1.45 as=1.45 pd=10.58 ps=10.58 nrd=0.058 nrs=0.058 sa=0 sb=0
++ sd=0 mult=1
+XM9 net10 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM10 net10 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=7 nf=1 ad=2.03 as=2.03 pd=14.58 ps=14.58 nrd=0.0414285714285714
++ nrs=0.0414285714285714 sa=0 sb=0 sd=0 mult=1
+XM11 net12 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM12 net12 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=9 nf=1 ad=2.61 as=2.61 pd=18.58 ps=18.58 nrd=0.0322222222222222
++ nrs=0.0322222222222222 sa=0 sb=0 sd=0 mult=1
+XM13 net14 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM14 net14 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=11 nf=1 ad=3.19 as=3.19 pd=22.58 ps=22.58 nrd=0.0263636363636364
++ nrs=0.0263636363636364 sa=0 sb=0 sd=0 mult=1
+XM15 net16 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM16 net16 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=13 nf=1 ad=3.77 as=3.77 pd=26.58 ps=26.58 nrd=0.0223076923076923
++ nrs=0.0223076923076923 sa=0 sb=0 sd=0 mult=1
+XM17 net18 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM18 net18 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=15 nf=1 ad=4.35 as=4.35 pd=30.58 ps=30.58 nrd=0.0193333333333333
++ nrs=0.0193333333333333 sa=0 sb=0 sd=0 mult=1
+XM19 net20 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM20 net20 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=18 nf=1 ad=5.22 as=5.22 pd=36.58 ps=36.58 nrd=0.0161111111111111
++ nrs=0.0161111111111111 sa=0 sb=0 sd=0 mult=1
+XM21 net22 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM22 net22 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=20 nf=1 ad=5.8 as=5.8 pd=40.58 ps=40.58 nrd=0.0145 nrs=0.0145 sa=0
++ sb=0 sd=0 mult=1
+XM23 net24 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM24 net24 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=22 nf=1 ad=6.38 as=6.38 pd=44.58 ps=44.58 nrd=0.0131818181818182
++ nrs=0.0131818181818182 sa=0 sb=0 sd=0 mult=1
+XM25 net26 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM26 net26 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=24 nf=1 ad=6.96 as=6.96 pd=48.58 ps=48.58 nrd=0.0120833333333333
++ nrs=0.0120833333333333 sa=0 sb=0 sd=0 mult=1
+XM27 net28 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM28 net28 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=26 nf=1 ad=7.54 as=7.54 pd=52.58 ps=52.58 nrd=0.0111538461538462
++ nrs=0.0111538461538462 sa=0 sb=0 sd=0 mult=1
+XM29 net30 Vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM30 net30 Vin Vdd Vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=29 nf=1 ad=8.41 as=8.41 pd=58.58 ps=58.58 nrd=0.01 nrs=0.01 sa=0 sb=0
++ sd=0 mult=1
+XM33 net1 clk' Vout1 net31 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM34 net1 clk Vout1 net32 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM35 net3 clk' Vout2 net33 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM36 net3 clk Vout2 net34 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM37 net5 clk' Vout3 net35 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM38 net5 clk Vout3 net36 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM39 net7 clk' Vout4 net37 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM40 net7 clk Vout4 net38 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1
+XM41 net9 clk' Vout5 net39 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM42 net9 clk Vout5 net40 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM43 net11 clk' Vout6 net41 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM76 net11 clk Vout6 net42 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM77 net13 clk' Vout7 net43 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM78 net13 clk Vout7 net44 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM79 net15 clk' Vout8 net45 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM80 net15 clk Vout8 net46 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM81 net17 clk' Vout9 net47 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM82 net17 clk Vout9 net48 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM83 net19 clk' Vout10 net49 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM84 net19 clk Vout10 net50 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM85 net21 clk' Vout11 net51 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM86 net21 clk Vout11 net52 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM87 net23 clk' Vout12 net53 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM88 net23 clk Vout12 net54 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM89 net25 clk' Vout13 net55 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM90 net25 clk Vout13 net56 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM91 net27 clk' Vout14 net57 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM92 net27 clk Vout14 net58 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0
++ sd=0 mult=1
+XM93 net29 clk' Vout15 net59 sky130_fd_pr__pfet_01v8_lvt L=0.35 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM94 net29 clk Vout15 net60 sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+V3 clk gnd pulse(0 1.8 0 100p 100p 4.9n 10n)
+V4 clk' gnd PULSE(1.8 0 0 100p 100p 4.9n 10n)
+**** begin user architecture code
+
+
+.lib /home/vboxuser/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+
+Bcnt cnt 0 V = floor(((1.8-v(vout1))+(1.8-v(vout2))+(1.8-v(vout3))+(1.8-v(vout4))+(1.8-v(vout5))+(1.8-v(vout6))+(1.8-v(vout7))+(1.8-v(vout8))+(1.8-v(vout9))+(1.8-v(vout10))+(1.8-v(vout11))+(1.8-v(vout12))+(1.8-v(vout13))+(1.8-v(vout14))+(1.8-v(vout15)))/1.8+0.5)
+Bb3 b3 0 V = floor(v(cnt)/8+0.01)*1.8
+Bb2 b2 0 V = (floor(v(cnt)/4+0.01)-2*floor(v(cnt)/8+0.01))*1.8
+Bb1 b1 0 V = (floor(v(cnt)/2+0.01)-2*floor(v(cnt)/4+0.01))*1.8
+Bb0 b0 0 V = (floor(v(cnt)+0.01)-2*floor(v(cnt)/2+0.01))*1.8
+
+.control
+save all
+tran 50p 50n
+plot v(Vin)
+plot v(clk) v(clk')+2.2
+plot v(b0) v(b1)+2 v(b2)+4 v(b3)+6
+.endc
+
+
+**** end user architecture code
+**.ends
+.GLOBAL gnd
+.end
