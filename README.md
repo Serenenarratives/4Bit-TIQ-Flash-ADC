@@ -38,12 +38,11 @@ Vin -> [INV M1/M2] -> [INV M3/M4] -> [Transmission Gate (CLK, CLK̅)] -> Vo -> E
 ```
 .
 ├── 4bit-tiq.sch        # Xschem schematic (top level)
-├── netlist/            # Generated SPICE netlist
-├── results/            # Simulation screenshots (see below)
+├── 4bit-tiq.spice           # Generated SPICE netlist
+├── Images           # Simulation screenshots (see below)
 └── README.md
 ```
 
-> Adjust the folder names above to match your repo.
 
 ## Tools
 
@@ -105,7 +104,8 @@ Output bits b0 to b3 plotted with vertical offsets (+0, +2, +4, +6 V) for readab
 
 ## Author
 
-Your Name, Department of Electronics Engineering, Your College
+Jasir-Ahmad-Buja
+Islamic University of Science and Technology
 
 ## License
 
